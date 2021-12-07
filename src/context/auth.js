@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import jwt from 'jsonwebtoken';
 
 export const AuthContext = React.createContext();
